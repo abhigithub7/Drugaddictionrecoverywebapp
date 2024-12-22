@@ -1,0 +1,24 @@
+{
+  "name": "drug",
+  "version": "1.0.0",
+  "description": "minor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
+  },
+  "author": "abhi",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drug": "file:",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "~3.0.8",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  }
+}

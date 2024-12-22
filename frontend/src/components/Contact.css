@@ -1,0 +1,65 @@
+.emergency-support {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .hotline {
+    background-color: #ff6f61;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .hotline h3 {
+    margin: 0;
+  }
+  
+  .request-help-button {
+    background-color: #fff;
+    color: #ff6f61;
+    padding: 10px 20px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .request-help-button:hover {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
+  .confirmation-message {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .additional-resources ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-resources li {
+    margin: 5px 0;
+  }
+  
+  .additional-resources a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .additional-resources a:hover {
+    text-decoration: underline;
+  }
+  
