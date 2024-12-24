@@ -12,6 +12,10 @@ const URI = process.env.MongoDBURI
 
 app.use(cors());
 app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 // connect mongodb
 try{
     mongoose.connect(URI,{
@@ -21,10 +25,14 @@ try{
     console.log("mongodb connected")
 
 }
+
+
 catch(error){
     console.log("error : ",error);
 
 }
+
+
 
 // define routes
 app.use('/users',userRoute);
