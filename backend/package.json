@@ -1,12 +1,11 @@
 {
-  "name": "drug",
+  "name": "vercel",
   "version": "1.0.0",
   "description": "minor project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node index.js",
-    "dev": "node"
+    "start": " nodemon index.js"
   },
   "author": "abhi",
   "license": "ISC",
@@ -20,6 +19,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "~3.0.8",
     "mongoose": "^8.9.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "vercel": "file:",
+    "versal": "file:"
   }
 }

@@ -25,7 +25,7 @@ const RegisterPage = () => {
             password: data.password
             
         }
-       await axios.post("http://localhost:5001/users/register",userInfo)
+       await axios.post(`http://localhost:5001/users/register`,userInfo)
         .then((res)=>{
             console.log(res.data);
             if(res.data)

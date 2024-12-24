@@ -7,7 +7,6 @@ const mongoose   = require('mongoose')
 const userRoute = require('./Routes/user-route')
 const cors = require('cors')
 
-
 const PORT = process.env.PORT || 5000
 const URI = process.env.MongoDBURI
 
@@ -35,3 +34,6 @@ app.use('/users',userRoute);
   app.listen(PORT, () => {
     console.log(`my server listening on port ${PORT}`)
   })
+
+
+  
